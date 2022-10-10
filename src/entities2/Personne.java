@@ -19,7 +19,11 @@ public class Personne {
 		this.prenom = prenom;
 		this.adressePostale = adressePostale;
 
+	public String majuscule (String nom, String prenom) {
+		System.out.println(nom.toUpperCase() prenom.toUpperCase());
+	}
 		
+	
 	}
 	
 }
