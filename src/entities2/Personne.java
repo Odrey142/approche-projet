@@ -17,13 +17,36 @@ public class Personne {
 	public Personne(String nom,String prenom,AdressePostale adressePostale){
 		this.nom = nom;
 		this.prenom = prenom;
-		this.adressePostale = adressePostale;
+		this.adressePostale = adressePostale;}
 
-	public String majuscule (String nom, String prenom) {
-		System.out.println(nom.toUpperCase() prenom.toUpperCase());
+public void afficherIdentite() {
+	System.out.println(prenom+""+nom.toUpperCase());
 	}
-		
+
+public void setNom(String nvNom) {
+	this.nom = nvNom;
+	}
 	
+public void setPrenom(String nvPrenom) {
+	this.prenom = nvPrenom;
 	}
+
+public void setAdresse (AdressePostale nvAdresse) {
+	this.adressePostale = nvAdresse;
+}
+	
+	public String getNom() {
+		return this.nom;
+	}
+	
+	public String getPrenom() {
+		return this.prenom;
+	}
+	
+	public AdressePostale getAdresse() {
+		return this.adressePostale;
 	
 }
+	}
+	
+

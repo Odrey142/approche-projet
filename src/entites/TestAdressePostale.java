@@ -12,6 +12,8 @@ public class TestAdressePostale {
 		
 		System.out.println(adresse1.numeroDeRue);
 
+		
+		
 	}
 
 }
