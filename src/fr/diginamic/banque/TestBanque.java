@@ -6,7 +6,7 @@ import fr.diginamic.banque.entities.CompteTaux;
 public class TestBanque {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		Compte cpt1 = new Compte(3,567);
 		System.out.println(cpt1);

@@ -7,12 +7,21 @@ public class CompteTaux extends Compte{
 	public CompteTaux(int numeroCompte, int soldeCompte,String tauxRenum) {
 		super(numeroCompte, soldeCompte);
 		this.tauxRenum = tauxRenum;
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override
 	public String toString() {
 		return super.toString() + "CompteTaux [tauxRenum=" + tauxRenum + "]";
+	}
+
+	
+	public String getTauxRenum() {
+		return tauxRenum;
+	}
+
+	public void setTauxRenum(String tauxRenum) {
+		this.tauxRenum = tauxRenum;
 	}
 
 	
