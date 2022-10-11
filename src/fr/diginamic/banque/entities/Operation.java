@@ -11,6 +11,26 @@ public abstract class Operation {
 		this.dateOp = dateOp;
 		this.montant = montant;
 	}
+
+
+	public String getDateOp() {
+		return dateOp;
+	}
+
+
+	public void setDateOp(String dateOp) {
+		this.dateOp = dateOp;
+	}
+
+
+	public int getMontant() {
+		return montant;
+	}
+
+
+	public void setMontant(int montant) {
+		this.montant = montant;
+	}
 	
 	
 }
