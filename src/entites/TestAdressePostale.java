@@ -13,6 +13,11 @@ public class TestAdressePostale {
 		System.out.println(adresse1.numeroDeRue);
 
 		
+		// la je modifie le code postale de l'adresse 1
+		adresse1.setCodePostal(3000);
+		adresse1.setLibelleDeRue("pays du vent");
+		
+		System.out.println(adresse1);
 		
 	}
 

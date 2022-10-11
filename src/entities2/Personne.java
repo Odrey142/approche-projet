@@ -18,6 +18,14 @@ public class Personne {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.adressePostale = adressePostale;}
+	
+
+
+@Override
+	public String toString() {
+		return  nom+"   " +prenom + "   " + adressePostale ;
+	}
+
 
 public void afficherIdentite() {
 	System.out.println(prenom+""+nom.toUpperCase());

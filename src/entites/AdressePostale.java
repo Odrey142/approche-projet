@@ -14,6 +14,13 @@ public class AdressePostale {
 		this.ville = ville;
 	}
 
+	
+	@Override
+	public String toString() {
+		return  numeroDeRue  +"   "+  libelleDeRue +"   "+  codePostal +"   "+  ville ;
+	}
+	
+
 	public int getNumeroDeRue() {
 		return numeroDeRue;
 	}
