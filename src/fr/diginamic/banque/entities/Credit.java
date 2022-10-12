@@ -7,4 +7,15 @@ public class Credit extends Operation {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String getType() {
+		// TODO Auto-generated method stub
+		return "CREDIT";
+	}
+
+	@Override
+	public String toString() {
+		return "Credit [getType()=" + getType() + "]";
+	}
+
 }

@@ -12,6 +12,10 @@ public abstract class Operation {
 		this.montant = montant;
 	}
 
+	public abstract String getType();
+	
+	
+	
 
 	public String getDateOp() {
 		return dateOp;
